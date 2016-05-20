@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>My second project</title>
+    <script>
+        function f1() {
+            var canvas =
+            document.getElementById("myCanvas")
+            context = canvas.getContext("2d")
+            context.fillStyle = "rgb(0,0,101)";
+            context.fillRect(10, 20, 200, 100);
+            
+        }
+    </script>
 </head>
-<body>
-    <a href="http://4fun.mksat.net/"> Films </a>
+<body onload = "f1();">
+    <a href="http://4fun.mksat.net/"> Films &#134;</a>
     <p>Make sure your pet has plenty of
     <i><b>fresh water</i>during hot weather.</p></b>
+    <time>10.43</time>
+    <br>
+    <br>
+    <p>Vita</p>
+    <figure>
+    <img src="image/v-1.png" alt="heart" width="150">
+    <figcaption>Heart</figcaption>
+    </figure>
+    <canvas id="myCanvas" height="100" width="200"></canvas>
 </body>
 </html>
